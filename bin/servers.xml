@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<lista_serwerow>
+	<server>
+		<login>blow22</login>
+		<haslo>instalator</haslo>
+		<baza>blow22</baza>
+		<host>sql.yakamedia.pl</host>
+	</server>			
+	<server>
+		<login>blow16</login>
+		<haslo>Tby3Vq9huP</haslo>
+		<baza>blow16</baza>
+		<host>sql.yakamedia.pl</host>
+	</server>
+</lista_serwerow>

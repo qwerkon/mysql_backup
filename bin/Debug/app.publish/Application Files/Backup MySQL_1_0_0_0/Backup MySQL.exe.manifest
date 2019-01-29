@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.0" name="Backup MySQL.exe" publicKeyToken="5185c5ea770725ec" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="system-file-manager.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Backup MySQL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Backup MySQL.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MySql.Data" version="5.2.5.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Backup MySQL.exe" size="56832">
+      <assemblyIdentity name="Backup MySQL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>pelX43xwkEBgJ+02EKpWTZSkPBo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Backup MySQL.exe.config" size="120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8ftcJLBvUoWhkXPJxPg06pDsU2M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="serwers.xml" size="45" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AedYkTe5cnmgP3QCoXnAeg99WQs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="system-file-manager.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mrI8Ktw2dwsAE6DKTWepoBksTmY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPROGRAMIST\qwerkon" issuerKeyHash="21facc077edc337fa8b62c6ce20a11cdbfbbb439" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eAjdmUqGOMaCqTey6FeR6OPl2mc=</DigestValue></Reference></SignedInfo><SignatureValue>cn0mcPFoFWjD2lAbrDgYP4CdiVE0bxEkEVnojj/Uo/TL65z8I5tRajdc2DveNL9ytQQGs8OiHbSmJOFE/B1b98qWYiVCk9kF0KSr4BwhDmSiOp6oQ1x2M65vDVV22mATLRL7uPNu9gHjbnmcKfTNXiiXKDurucOokrPkUMsfFBg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>q6ciFoOaS+jSkepeD7scRB5pJSCCQbqV128X9MoC/CjsklLUoAwE1lfVsO4fEoMwRbBKYomkzuST+u6OYSr7ocTtAZXbb8TlnevM+0lXAWumV/35ZdmEwp2796FVI6huX4s2D+ULhlCr7a7P0PhxRSV1SawrW4lXb4uN17mpd/M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="67dae5e3e89157e8b237a982c638864a99dd0878" Description="" Url=""><as:assemblyIdentity version="1.0.0.0" name="Backup MySQL.exe" publicKeyToken="5185c5ea770725ec" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPROGRAMIST\qwerkon</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>jl+WFVQZcXztt6Q25kkLStTjpEc=</DigestValue></Reference></SignedInfo><SignatureValue>Z4Wvi9pLT08NARXm4OzRgEyhpq2kLpEHinKI1xmDbbMkGkQ17yCp4fYsC+B9N7hCWeNxzM6uwK3aCnzWhpZ3KZ+AMrkhvkCAz/qOGFPBzAcBpi66ZM98uZgpJ88Pcm/vYqhACMxY9O78A73RyvEFAQ5UXTUKZzavC74anAKn9V0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>q6ciFoOaS+jSkepeD7scRB5pJSCCQbqV128X9MoC/CjsklLUoAwE1lfVsO4fEoMwRbBKYomkzuST+u6OYSr7ocTtAZXbb8TlnevM+0lXAWumV/35ZdmEwp2796FVI6huX4s2D+ULhlCr7a7P0PhxRSV1SawrW4lXb4uN17mpd/M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAU6gAwIBAgIQbzZ75mJ+irtBkyCZ22OIkjAJBgUrDgMCHQUAMDMxMTAvBgNVBAMeKABMAEEAUABSAE8ARwBSAEEATQBJAFMAVABcAHEAdwBlAHIAawBvAG4wHhcNMDkwNDIxMTkwNzU2WhcNMTAwNDIyMDEwNzU2WjAzMTEwLwYDVQQDHigATABBAFAAUgBPAEcAUgBBAE0ASQBTAFQAXABxAHcAZQByAGsAbwBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrpyIWg5pL6NKR6l4PuxxEHmklIIJBupXXbxf0ygL8KOySUtSgDATWV9Ww7h8SgzBFsEpiiaTO5JP67o5hKvuhxO0BldtvxOWd68z7SVcBa6ZX/fll2YTCnbv3oVUjqG5fizYP5QuGUKvtrs/Q+HFFJXVJrCtbiVdvi43Xual38wIDAQABMAkGBSsOAwIdBQADgYEAqOMxToG0OCLsDCf4gXGvOSq93YbBsejJIxHi5s4t4LO/+t7rtsGauuxMjpjsRmuLjqyrhnvVDPzUWd1kcfHVrLEvalBkVy7obwJfxi6TcX2CoPyBwAlDx46Gi5UkqddjFnsDbuR8kZdBv4IkHXxxhMNw/ODZTRyB2ofkizGiK10=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
