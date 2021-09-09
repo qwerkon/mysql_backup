@@ -1,1 +1,1 @@
-Program for creating copies of databases. The program written in C #.
+Program for creating copies of databases written in C#
